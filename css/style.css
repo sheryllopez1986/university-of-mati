@@ -1,0 +1,172 @@
+*{
+  box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Century gothic;
+    font-size: 16px;
+    text-align: center;
+}
+
+.banner{
+	width:100%;
+	float:left;
+}
+
+
+.container {
+    position: absolute;
+    width: auto;
+    margin: 20px;
+   
+}
+
+
+.topnav {
+    overflow: hidden;
+
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.topnav :hover {
+    color: black;
+}
+
+.about-me {
+  background-color: goldenrod;
+  color: #f2f2f2;
+  margin-bottom: 50px;
+}
+
+.about-me img {
+  margin: auto;
+  width: 300px;
+
+}
+
+.about-me h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 20px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    color: goldenrod;
+}
+
+.services H2 p {
+  font-size: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.gallery {
+    width: auto;
+    display: flex;
+ }
+
+
+.gallery img{
+    width:300px;
+    margin: 20px 0;
+  }
+
+  .lastcontainer1 img{
+    margin-right:0;
+}
+
+.container1 {
+    position: relative;
+    width: 25%;
+
+  }
+  
+  .image {
+    opacity: 1;
+    display: inline-block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container1:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container1:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: goldenrod;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .gallerynav {
+    text-decoration: none;
+    background-color: goldenrod;
+    padding: 10px 10px;
+    color: white;
+    font-size: 15px;
+
+  }
+
+  .footer {
+    background-color: goldenrod;
+    padding: 25px 25px;
+    text-align: center;
+  }
+
+.footer p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+   
+  }
+
+  @media screen and (max-width: 480px){
+    .left, .right, .main {
+        width:100%;
+    }
+  }
+    
+
+.blocker {
+clear: both !important;
+}

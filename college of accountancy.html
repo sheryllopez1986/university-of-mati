@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Online SRMS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+<!--===============================================================================================-->	
+	<link rel="icon" type="https://lssti.rizwoods.com/assets/image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/css/util.css">
+	<link rel="stylesheet" type="text/css" href="https://lssti.rizwoods.com/assets/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #666666;">
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+
+				<form action="https://lssti.rizwoods.com/Login/auth" method="post" class="login100-form validate-form">
+					<span class="login100-form-title p-b-43"></span>
+					<span class="login100-form-title p-b-43">
+						School Records Mgt. System
+					</span>
+					
+					<div style="text-align:center; color:#f8f7fc; background-color:#050168;text-transform:uppercase; style:bold;"><small></small></div>
+					<div class="wrap-input100 validate-input" data-validate = "Username is required">
+						<input class="input100" type="text" autocomplete="off" name="username">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Username</span>
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" autocomplete="off" name="password">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Password</span>
+					</div>
+					
+					 <div class="wrap-input100 validate-input" data-validate="School Year is required.  Example: 2020-2021">
+						<input class="input100" type="text" name="sy" >
+						<span class="focus-input100"></span>
+						<span class="label-input100">School Year</span>
+					</div>
+					
+					<select name="semester" class="sem" style="">
+						  <option value="1st Sem." selected>1st Sem.</option>
+						  <option value="2nd Sem.">2nd Sem.</option>
+						  <option value="Summer">Summer</option>
+						</select> 
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+					
+					<div class="text-center p-t-46 p-b-20">
+						<!--<span class="txt2">
+						<a href="file:///C:/xampp/htdocs/srms/college%20of%20accountancy.html"><span style="font-weight: bold">RESERVE A SLOT FOR TESDA SCHOLARSHIP</span></a>
+						</span >  
+
+						 <span class="txt2">
+						<a href="file:///C:/xampp/htdocs/srms/college%20of%20accountancy.html">Create an Account</a>
+						</span >   -->
+
+						<!-- <span class="txt2">
+							<a href="#" data-toggle="modal" data-target="#forgotModal" class="txt2">
+							Forgot Password
+							</a>
+						</span> -->
+					</div>
+
+
+				</form>
+
+				 <div class="login100-more" style="background-image: url('https://lssti.rizwoods.com/upload/banners/homepage.jpg');"> 
+				
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+	
+<!--===============================================================================================-->
+	<script src="https://lssti.rizwoods.com/assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="https://lssti.rizwoods.com/assets/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="https://lssti.rizwoods.com/assets/vendor/bootstrap/js/popper.js"></script>
+	<script src="https://lssti.rizwoods.com/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="https://lssti.rizwoods.com/assets/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="https://lssti.rizwoods.com/assets/vendor/daterangepicker/moment.min.js"></script>
+	<script src="https://lssti.rizwoods.com/assets/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="https://lssti.rizwoods.com/assets/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="https://lssti.rizwoods.com/assets/js/main.js"></script>
+
+</body>
+
+ <!-- Forgot Password Modal -->
+       <div class="modal fade" id="forgotModal" tabindex="-1" role="dialog" aria-labelledby="forgotModalLabel" style="color:black">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="forgotModalLabel">Forgot Password</h4>
+            </div>
+            <div class="modal-body">         
+				 <form id="resetPassword" name="resetPassword" method="post" action="file:///C:/xampp/htdocs/srms/college%20of%20accountancy.html" onsubmit ='return validate()'>
+						<div class="input-group mb-3">
+						  <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required >
+						  <div class="input-group-append">
+							<div class="input-group-text">
+							  <span class="fas fa-envelope"></span>
+							</div>
+						  </div>
+						</div>
+						<div class="row">
+						  <div class="col-12">
+							<input type = "submit" value="Request a New Password" class="btn btn-primary btn-block name="forgot_pass">
+						  </div>
+						  <!-- /.col -->
+						</div>
+				</form> 
+                       
+                            
+                </div>  
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            
+            </div>
+            </div>
+        </div>
+        </div>
+        <!-- End Forgot Password Modal -->
+</html>
